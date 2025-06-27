@@ -9,8 +9,8 @@ with st.sidebar.form("profile_form"):
     name = st.text_input("Full Name", "Dr. R. Arulraj")
     tagline = st.text_input("Tagline / Role", "AI Researcher | Educator | Developer")
     bio = st.text_area("Short Bio", "Passionate about developing AI-powered solutions for real-world problems.")
-    email = st.text_input("Email", "arulraj@email.com")
-    phone = st.text_input("Phone", "+91-9876543210")
+    email = st.text_input("Email", "arulrajkrce@gmail.com")
+    phone = st.text_input("Phone", "+91-9894174820")
     linkedin = st.text_input("LinkedIn URL", "https://linkedin.com/in/arulraj")
     github = st.text_input("GitHub URL", "https://github.com/arulraj")
     submit = st.form_submit_button("Update Profile")
@@ -29,7 +29,7 @@ if submit:
     st.divider()
 
     st.markdown("## 🛠️ Skills")
-    skills = st.text_area("Enter skills separated by commas (in sidebar)", "Python, Machine Learning, Streamlit, SQL")
+    skills = st.text_area("Enter skills separated by commas (in sidebar)", "Python, Machine Learning, Streamlit, Deep Learning")
     st.markdown(", ".join([f"`{s.strip()}`" for s in skills.split(",")]))
 
     st.markdown("## 📁 Projects")
@@ -44,14 +44,14 @@ if submit:
 
     st.markdown("## 🎓 Education")
     st.markdown("""
-    - **Ph.D. in Computer Science**, Anna University, 2021  
-    - **M.Tech in AI**, NIT Trichy, 2017
+    - **Ph.D. in Power Systems**, Annamalai University, 2019  
+    - **M.Tech in Power System Engineering**, Annamalai University, 2013
     """)
 
     st.markdown("## 📜 Certifications")
     st.markdown("""
-    - AI/ML Controllers – FDP – 2024  
-    - TensorFlow Developer – Google – 2023
+    - Generative AI – FDP – 2025  
+    - Electric Vehicles & Smart Grid – 2025
     """)
 
     st.success("✔️ Profile updated successfully!")
