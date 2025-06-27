@@ -7,7 +7,7 @@ st.set_page_config(page_title="My Personal Webpage", layout="wide")
 with st.sidebar.form("profile_form"):
     st.title("👤 Personal Details")
     name = st.text_input("Full Name", "Dr. R. Arulraj")
-    tagline = st.text_input("Tagline / Role", "AI Researcher | Educator | Developer")
+    tagline = st.text_input("Tagline / Role", "AI Researcher | Educator")
     bio = st.text_area("Short Bio", "Passionate about developing AI-powered solutions for real-world problems.")
     email = st.text_input("Email", "arulrajkrce@gmail.com")
     phone = st.text_input("Phone", "+91-9894174820")
